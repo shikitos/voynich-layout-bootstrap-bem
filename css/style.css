@@ -1,0 +1,108 @@
+/* Fonts */
+
+
+/*Maybe I should connect these fonts by separate CSS-file*/
+
+@font-face {
+    font-family: "BebasNeueBold";
+    src: url("../fonts/BebasNeue-Bold.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PlayfairDisplayItalic";
+    src: url("../fonts/PlayfairDisplay-Italic.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* Header section */
+
+
+/* Nav and logo */
+
+.header {
+    background-image: url(../img/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__logo img {
+    margin: 21px 0 320px 15px;
+}
+
+.header__nav li {
+    display: inline-block;
+    margin: 56px 3px 0 3px;
+    font-family: Montserrat;
+    font-size: 13px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+}
+
+.header__nav a {
+    color: #ffffff;
+    letter-spacing: 0.075em;
+    padding: 14px 20px 14px 20px;
+}
+
+.header__nav a:hover {
+    text-decoration: none;
+    color: #3e705d;
+    background-color: #bcfee5;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+
+/* Heading and Text with Link */
+
+.header__text h1 {
+    font-family: Montserrat;
+    color: #b7fee3;
+    font-size: 72px;
+    line-height: 85px;
+    margin: 0 0 22px 48px;
+}
+
+.header__text p {
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 0 71px 48px;
+}
+
+.header__text a {
+    color: #b7fee3;
+    text-decoration: underline;
+    text-underline-position: below;
+}
+
+.header__text a:hover {
+    color: #7bd6b3;
+}
+
+.header__text img {
+    margin: 0 0 312px 120px;
+    transition: 0.5s;
+}
+
+.header__text img:hover {
+    transform: scale(1.2);
+}
