@@ -1,4 +1,4 @@
-/* Fonts */
+/* FONTS */
 
 
 /*Maybe I should connect these fonts by separate CSS-file*/
@@ -32,7 +32,7 @@
 }
 
 
-/* Body */
+/* BODY */
 
 body {
     margin: 0;
@@ -40,7 +40,7 @@ body {
 }
 
 
-/* Header section */
+/* HEADER SECTION */
 
 .header {
     background-image: url(../img/header_bg.jpg);
@@ -175,4 +175,71 @@ body {
     font-family: OpenSans;
     font-size: 14px;
     color: #182b24;
+}
+
+
+/* FEATURES SECTION */
+
+
+/*Centered text in the featured section */
+
+.features__text img {
+    margin: 110px 0 25px 0;
+}
+
+.features__text h3 {
+    font-family: Montserrat;
+    color: #3e705d;
+    font-size: 16px;
+    letter-spacing: 0.125em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.features__text h4 {
+    font-family: Montserrat;
+    color: #182b24;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.features__text p {
+    font-family: OpenSans;
+    color: #3a3b3b;
+    font-size: 18px;
+    margin-bottom: 90px;
+}
+
+
+/*Features cards */
+
+.features__cards {
+    background-color: #b9fee4;
+    border-radius: 10px;
+    margin: 0 15px 110px 15px;
+    padding: 0;
+    max-width: 30.7%;
+    /*is it normal? 
+    I am about max-width */
+}
+
+.features__cards img {
+    padding: 70px 0 35px 0;
+}
+
+.features__cards h5 {
+    font-family: Montserrat;
+    color: #3a3b3b;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.features__cards p {
+    font-family: OpenSans;
+    color: #3a3b3b;
+    font-size: 14px;
+    padding-bottom: 75px;
 }
