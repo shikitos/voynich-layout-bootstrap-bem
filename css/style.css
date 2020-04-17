@@ -39,6 +39,14 @@ body {
     padding: 0;
 }
 
+.dotted {
+    /*For dots at the bg */
+    background: #b9fee4;
+    background-image: radial-gradient(#b1f6dc 2px, transparent 0);
+    background-size: 15px 15px;
+    background-position: -19px -19px;
+}
+
 
 /* HEADER SECTION */
 
@@ -118,14 +126,6 @@ body {
 
 
 /* ABOUT SECTION */
-
-.about {
-    background-color: #b9fee4;
-    /*Need to add dots at the bg
-    maybe do it with css
-    or layout's background-image 
-    of the block */
-}
 
 .about__heading img {
     margin: 90px 0 25px 0;
@@ -216,7 +216,6 @@ body {
 /*Features cards */
 
 .features__cards {
-    background-color: #b9fee4;
     border-radius: 10px;
     margin: 0 15px 110px 15px;
     padding: 0;
@@ -242,4 +241,52 @@ body {
     color: #3a3b3b;
     font-size: 14px;
     padding-bottom: 75px;
+}
+
+
+/* PARTNERS SECTION */
+
+.partners {
+    background-image: url(../img/partners_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.partners__text {
+    padding: 0 0 0 30px;
+}
+
+.partners__text h4 {
+    font-family: Montserrat;
+    color: #3e705d;
+    font-size: 16px;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.partners__text h5 {
+    font-family: Montserrat;
+    font-size: 35px;
+    color: #182b24;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.partners__text p {
+    font-family: Montserrat;
+    color: #182b24;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.partners__arrow {
+    margin: 65px 0 110px 0;
+    transition: 0.5s;
+}
+
+.partners__arrow:hover {
+    transform: scale(1.2);
 }
