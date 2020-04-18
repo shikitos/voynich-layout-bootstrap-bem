@@ -47,6 +47,18 @@ body {
     background-position: -19px -19px;
 }
 
+.dotted__white {
+    /*For dots at the bg */
+    background: #ffffff;
+    background-image: radial-gradient(#f0f0f0 2px, transparent 0);
+    background-size: 15px 15px;
+    background-position: -19px -19px;
+}
+
+.line {
+    margin: 100px 0 25px 0;
+}
+
 
 /* HEADER SECTION */
 
@@ -289,4 +301,258 @@ body {
 
 .partners__arrow:hover {
     transform: scale(1.2);
+}
+
+
+/* TESTIMONALS SECTION */
+
+.testimonals {
+    background-color: #fff;
+}
+
+.testimonals__text h4 {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    color: #3e705d;
+    font-size: 16px;
+    letter-spacing: 0.125em;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.testimonals__text h5 {
+    font-family: Montserrat;
+    color: #182b24;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+
+/* Carousel */
+
+.testimonals__carousel p {
+    /* font-style: italic;*/
+    font-family: PlayfairDisplayItalic;
+    font-size: 24px;
+    color: #182b24;
+    margin-bottom: 90px;
+}
+
+.carousel-indicators li {
+    /*margin: 90px 0 100px 0;*/
+    /* top: 90px;*/
+    background-color: #a8aaa9;
+    /*padding-bottom: 100px;*/
+    width: 7px;
+    height: 7px
+}
+
+.carousel-indicators .active {
+    background-color: #3e705d;
+}
+
+.testimonals__carousel {
+    margin-bottom: 84px;
+}
+
+
+/* TOUCH SECTION */
+
+.touch {
+    background-image: url(../img/touch_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.touch__text h4 {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    color: #b7fee3;
+    font-size: 16px;
+    letter-spacing: 0.125em;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.touch__text h5 {
+    font-family: Montserrat;
+    color: #f8f8f8;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 110px;
+}
+
+
+/* Left column */
+
+.touch__form {
+    border: 1px solid #b7fee3;
+    border-radius: 7px;
+    padding: 55px 50px 55px 50px;
+    margin-bottom: 150px;
+}
+
+.touch__form h5 {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #f8f8f8;
+    margin-bottom: 58px;
+}
+
+.touch__form input,
+textarea {
+    background-color: transparent;
+    outline: none;
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #f0f0f0;
+    border: none;
+    border-bottom: 2px solid #b7fee3;
+    margin-bottom: 48px;
+    width: 85%;
+}
+
+
+/* placeholders stylization */
+
+.touch__form textarea::-webkit-input-placeholder {
+    color: #f0f0f0;
+}
+
+.touch__form textarea::-moz-placeholder {
+    color: #f0f0f0;
+}
+
+.touch__form textarea:-moz-placeholder {
+    color: #f0f0f0;
+}
+
+.touch__form textarea:-ms-input-placeholder {
+    color: #f0f0f0;
+}
+
+.touch__form input::-webkit-input-placeholder {
+    color: #f0f0f0;
+}
+
+.touch__form input::-moz-placeholder {
+    color: #f0f0f0;
+}
+
+.touch__form input:-moz-placeholder {
+    color: #f0f0f0;
+}
+
+.touch__form input:-ms-input-placeholder {
+    color: ##f0f0f0;
+}
+
+
+/*placeholder stylization ended */
+
+.touch__form input {
+    height: 33px;
+}
+
+
+/*
+.touch__send a {
+    /* float: right; }*/
+
+.touch__send p {
+    font-family: Montserrat;
+    color: #b7fee3;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+.touch__arrow {
+    /*  margin-left: 40px;*/
+    transition: 0.5s;
+}
+
+.touch__arrow:hover {
+    transform: scale(1.2);
+}
+
+
+/* Right column */
+
+.touch__contact h5 {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.touch__contact1 {
+    margin-bottom: 60px;
+}
+
+.touch__contact2 img {
+    margin-top: 10px;
+}
+
+.touch__contact1 p {
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 34px;
+}
+
+.touch__contact2 p {
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 34px;
+    margin-bottom: 0;
+}
+
+.touch__icons li {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.touch__icons i {
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.touch__icons i:hover {
+    color: #b8b2b2;
+}
+
+.touch__live {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    font-size: 13px;
+    margin-left: 20px;
+    position: relative;
+    top: 100px;
+}
+
+.touch__live:hover {
+    text-decoration: none;
+    color: #3e705d;
+    background-color: #bcfee5;
+    border-radius: 3px;
+    transition: 0.5s;
+    padding: 20px 37px 20px 37px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #000;
+}
+
+.footer p {
+    margin: 80px 0 80px 0;
+    font-family: OpenSans;
+    font-size: 18px;
+    color: #f8f8f8;
 }
