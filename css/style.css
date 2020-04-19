@@ -39,6 +39,10 @@ body {
     padding: 0;
 }
 
+ul {
+    padding-inline-start: 0px;
+}
+
 .dotted {
     /*For dots at the bg */
     background: #b9fee4;
@@ -489,8 +493,12 @@ textarea {
     margin-bottom: 60px;
 }
 
-.touch__contact2 img {
-    margin-top: 10px;
+.touch__img {
+    margin-top: 40px;
+}
+
+.touch__img1 {
+    margin-bottom: 115px;
 }
 
 .touch__contact1 p {
@@ -515,7 +523,9 @@ textarea {
 
 .touch__icons i {
     color: #ffffff;
-    margin-left: 20px;
+    /* margin-left: 20px;
+    text-align: left;*/
+    margin-right: 10px;
 }
 
 .touch__icons i:hover {
@@ -529,7 +539,7 @@ textarea {
     color: #ffffff;
     letter-spacing: 0.1em;
     font-size: 13px;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     position: relative;
     top: 100px;
 }
