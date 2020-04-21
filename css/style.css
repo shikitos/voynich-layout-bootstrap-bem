@@ -109,6 +109,7 @@ ul {
     transform: scale(2);
     margin-top: 15%;
     margin-right: 5%;
+    display: none;
 }
 
 
@@ -576,6 +577,9 @@ textarea {
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .header__menu {
+        display: block;
+    }
     .header__nav li {
         margin: 50px 3px 0 3px;
         font-size: 13px;
@@ -607,6 +611,9 @@ textarea {
     .header {
         background-size: 285vh;
         background-position: 50%;
+    }
+    .header__menu {
+        display: block;
     }
     .features__text p {}
     .features__cards {
