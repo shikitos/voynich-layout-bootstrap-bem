@@ -19,12 +19,10 @@
         <div class="container">
             <!--Should I edit to container-fliud?-->
             <div class="row">
-                <div class="col-md-2 text-center header__logo">
+                <div class="col-md-2 col-6 text-center header__logo">
                     <img src="img/header_logo.png" alt="Logotype 'Voynich'">
                 </div>
-                <div class="col-xl-7 offset-xl-3 col-lg-8 offset-lg-2 header__nav">
-                    <i class="fa fa-align-justify"></i>
-                    <!-- Need to create pop-up menu-->
+                <div class="col-xl-7 offset-xl-3 col-lg-8 offset-lg-2 col-6 header__nav" id="side_nav">
                     <ul>
                         <li>
                             <a href="#about"> 
@@ -53,6 +51,7 @@
                         </li>
                     </ul>
                 </div>
+                <i class="fa fa-align-justify header__menu" id="menu_icon"></i>
             </div>
             <div class="row">
                 <div class="col-md-12 text-start header__text">
@@ -370,6 +369,8 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 
