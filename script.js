@@ -1,7 +1,8 @@
+//header nav pop-up menu for screen size less than 991 px;
 function someFunc() {
-    // Do it if the screen size is less than 1000
+    // Do it if the screen size is less than 991
     var w = window.innerWidth;
-    if (w < 1000) {
+    if (w < 991) {
         var menu_icon = document.getElementById("menu_icon");
         var side_nav = document.getElementById("side_nav");
         var header = document.getElementById("header")
